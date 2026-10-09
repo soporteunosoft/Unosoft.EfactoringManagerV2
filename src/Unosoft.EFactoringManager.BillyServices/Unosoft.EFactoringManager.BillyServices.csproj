@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <AssemblyName>Unosoft.EFactoringManager.BillyServices</AssemblyName>
+    <RootNamespace>Unosoft.EFactoringManager.BillyServices</RootNamespace>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Referencia al proyecto base -->
+    <ProjectReference Include="..\Unosoft.EfactoringManager.EBillServices\Unosoft.EfactoringManager.EBillServices.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Alineación de dependencias (EVITA DOWNGRADES) -->
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="JetBrains.Annotations" Version="2024.3.0" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.6.4" />
+    <PackageReference Include="TimeZoneConverter" Version="7.0.0" />
+    <PackageReference Include="Castle.Core" Version="5.2.1" />
+  </ItemGroup>
+
+</Project>

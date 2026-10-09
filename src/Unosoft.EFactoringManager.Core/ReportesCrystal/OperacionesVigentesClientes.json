@@ -1,0 +1,246 @@
+{
+    "Name": "Reporte Excel",
+    "Font": {
+        "Name": "Arial",
+        "Size": "8",
+        "Bold": false
+    },
+    "Header": {
+        "Fields": [{
+                "Column": 1,
+                "Row": 1,
+                "Type": 1,
+                "Value": "OPERACIONES VIGENTES CLIENTES",
+                "FieldName": "",
+                "Alignment": "Left",
+                "Font": {
+                    "Bold": true
+                }
+            }
+
+        ]
+    },
+    "Body": {
+        "InitialRow": 2,
+        "InitialColumn": 1,
+        "FinalColumn": 26,
+        "HeaderColor": "#D0D0D0",
+      "Fields": [
+        {
+          "Caption": "OFICINA",
+          "Width": 12,
+          "FieldName": "OFICINA",
+          "Alignment": "Center",
+          "Type": "TEXT",
+          "Borders": {}
+        },
+        {
+
+          "Caption": "No_OP",
+          "Width": 12,
+          "FieldName": "No_OP",
+          "Alignment": "Center",
+          "Type": "TEXT",
+          "Borders": {}
+        },
+        {
+          "Caption": "FECHA_OP",
+          "Width": 12,
+          "FieldName": "FECHA_OP",
+          "Alignment": "Center",
+          "Type": "TEXT",
+          "Borders": {}
+        },
+        {
+          "Caption": "No_TITULO",
+          "Width": 12,
+          "FieldName": "No_TITULO",
+          "Alignment": "Center",
+          "Type": "TEXT",
+          "Borders": {}
+        },
+        {
+          "Caption": "FecEmision",
+          "Width": 12,
+          "FieldName": "FecEmision",
+          "Alignment": "Center",
+          "Type": "TEXT",
+          "Borders": {}
+        },
+        {
+          "Caption": "FECHA_V_TO_REAL",
+          "Width": 12,
+          "FieldName": "FECHA_V_TO_REAL",
+          "Alignment": "Center",
+          "Type": "TEXT",
+          "Borders": {}
+        },
+        {
+          "Caption": "No_ID_EMISOR",
+          "Width": 12,
+          "FieldName": "No_ID_EMISOR",
+          "Alignment": "Center",
+          "Type": "TEXT",
+          "Borders": {}
+        },
+        {
+          "Caption": "RAZON_SOCIAL_EMISOR",
+          "Width": 20,
+          "FieldName": "RAZON_SOCIAL_EMISOR",
+          "Alignment": "Left",
+          "Type": "TEXT",
+          "Borders": {}
+        },
+        {
+          "Caption": "No_ID_PAGADOR",
+          "Width": 12,
+          "FieldName": "No_ID_PAGADOR",
+          "Alignment": "Center",
+          "Type": "TEXT",
+          "Borders": {}
+        },
+        {
+          "Caption": "RAZON_SOCIAL_PAGADOR",
+          "Width": 20,
+          "FieldName": "RAZON_SOCIAL_PAGADOR",
+          "Alignment": "Left",
+          "Type": "TEXT",
+          "Borders": {}
+        },
+       
+        {
+          "Caption": "VALOR_NETO",
+          "Width": 15,
+          "FieldName": "VALOR_NETO",
+          "Alignment": "Right",
+          "Type": "MONEDA",
+          "Borders": {}
+        },
+        {
+          "Caption": "VALOR_REMANENTE",
+          "Width": 15,
+          "FieldName": "VALOR_REMANENTE",
+          "Alignment": "Right",
+          "Type": "MONEDA",
+          "Borders": {}
+        },
+        {
+          "Caption": "VALOR_LIQUIDO",
+          "Width": 15,
+          "FieldName": "VALOR_LIQUIDO",
+          "Alignment": "Right",
+          "Type": "MONEDA",
+          "Borders": {}
+        },
+        {
+          "Caption": "VALOR_FACTURA_CORTE",
+          "Width": 15,
+          "FieldName": "VALOR_FACTURA_CORTE",
+          "Alignment": "Right",
+          "Type": "MONEDA",
+          "Borders": {}
+        },
+        {
+          "Caption": "VALOR_NOMINAL_CORTE",
+          "Width": 15,
+          "FieldName": "VALOR_NOMINAL_CORTE",
+          "Alignment": "Right",
+          "Type": "MONEDA",
+          "Borders": {}
+        },
+        {
+          "Caption": "TIPO_FACTORING",
+          "Width": 12,
+          "FieldName": "TIPO_FACTORING",
+          "Alignment": "Center",
+          "Type": "TEXT",
+          "Borders": {}
+        },
+        {
+          "Caption": "COMERCIAL",
+          "Width": 12,
+          "FieldName": "COMERCIAL",
+          "Alignment": "Center",
+          "Type": "TEXT",
+          "Borders": {}
+        },
+        {
+          "Caption": "COM_INTERNO",
+          "Width": 12,
+          "FieldName": "COM_INTERNO",
+          "Alignment": "Center",
+          "Type": "TEXT",
+          "Borders": {}
+        },
+        {
+          "Caption": "MORA REAL",
+          "Width": 12,
+          "FieldName": "MORA_REAL",
+          "Alignment": "Right",
+          "Type": "TEXT",
+          "Borders": {}
+        },
+        {
+          "Caption": "EDAD_MORA",
+          "Width": 12,
+          "FieldName": "EDAD_MORA",
+          "Alignment": "Right",
+          "Type": "MONEDA",
+          "Borders": {}
+        },
+        {
+          "Caption": "TRM",
+          "Width": 12,
+          "FieldName": "TRM",
+          "Alignment": "Right",
+          "Type": "MONEDA",
+          "Borders": {}
+        },
+        {
+          "Caption": "ESTADO_MORA",
+          "Width": 12,
+          "FieldName": "ESTADO_MORA",
+          "Alignment": "Center",
+          "Type": "TEXT",
+          "Borders": {}
+        },
+        {
+          "Caption": "FECHA ULT PAGO",
+          "Width": 12,
+          "FieldName": "FEC_ULT_PAGO",
+          "Alignment": "Center",
+          "Type": "TEXT",
+          "Borders": {}
+        },
+        {
+          "Caption": "MORA PAGADA",
+          "Width": 12,
+          "FieldName": "MORA_PAGADA",
+          "Alignment": "Center",
+          "Type": "MONEDA",
+          "Borders": {}
+        }
+
+
+      ]
+    },
+    "Footer": {
+        "Fields": [{
+                "Column": 4,
+                "Row": 0,
+                "Type": 1,
+                "Value": "TOTALES",
+                "FieldName": "",
+                "Alignment": "Right",
+
+                "Borders": {
+                    "Bottom": true
+                },
+                "Font": {
+                    "Bold": true
+                }
+
+            }
+        ]
+    }
+}

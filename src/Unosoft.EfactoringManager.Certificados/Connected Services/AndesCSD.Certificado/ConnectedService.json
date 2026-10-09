@@ -1,0 +1,67 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "https://ra.andesscd.com.co/WebService/wsdl.php?wsdl"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, AndesCSD.Certificado"
+    ],
+    "references": [
+      "Abp, {Abp, 10.2.0}",
+      "Abp.Zero.Common, {Abp.Zero.Common, 10.2.0}",
+      "Abp.ZeroCore, {Abp.ZeroCore, 10.2.0}",
+      "Castle.Core, {Castle.Core, 5.2.1}",
+      "Castle.Core.AsyncInterceptor, {Castle.Core.AsyncInterceptor, 2.1.0}",
+      "Castle.Facilities.Logging, {Castle.LoggingFacility, 6.0.0}",
+      "Castle.Windsor, {Castle.Windsor, 6.0.0}",
+      "JetBrains.Annotations, {JetBrains.Annotations, 2024.3.0}",
+      "Microsoft.Extensions.Caching.Abstractions, {Microsoft.Extensions.Caching.Abstractions, 9.0.5}",
+      "Microsoft.Extensions.Caching.Memory, {Microsoft.Extensions.Caching.Memory, 9.0.5}",
+      "Microsoft.Extensions.DependencyInjection.Abstractions, {Microsoft.Extensions.DependencyInjection.Abstractions, 9.0.5}",
+      "Microsoft.Extensions.DependencyModel, {Microsoft.Extensions.DependencyModel, 6.0.0}",
+      "Microsoft.Extensions.Logging.Abstractions, {Microsoft.Extensions.Logging.Abstractions, 9.0.5}",
+      "Microsoft.Extensions.Options, {Microsoft.Extensions.Options, 9.0.5}",
+      "Microsoft.Extensions.Primitives, {Microsoft.Extensions.Primitives, 9.0.5}",
+      "Newtonsoft.Json, {Newtonsoft.Json, 13.0.3}",
+      "Nito.AsyncEx.Context, {Nito.AsyncEx.Context, 5.1.2}",
+      "Nito.AsyncEx.Coordination, {Nito.AsyncEx.Coordination, 5.1.2}",
+      "Nito.AsyncEx.Tasks, {Nito.AsyncEx.Tasks, 5.1.2}",
+      "Nito.Collections.Deque, {Nito.Collections.Deque, 1.1.1}",
+      "Nito.Disposables, {Nito.Disposables, 2.2.1}",
+      "System.Collections, {System.Collections, 4.3.0}",
+      "System.Collections.Immutable, {System.Collections.Immutable, 9.0.5}",
+      "System.ComponentModel.Annotations, {System.ComponentModel.Annotations, 5.0.0}",
+      "System.Configuration.ConfigurationManager, {System.Configuration.ConfigurationManager, 10.0.1}",
+      "System.Data.Common, {System.Data.Common, 4.3.0}",
+      "System.Diagnostics.EventLog, {System.Diagnostics.EventLog, 10.0.1}",
+      "System.IO, {System.IO, 4.3.0}",
+      "System.Linq, {System.Linq, 4.3.0}",
+      "System.Linq.Dynamic.Core, {System.Linq.Dynamic.Core, 1.6.4}",
+      "System.Linq.Expressions, {System.Linq.Expressions, 4.3.0}",
+      "System.Linq.Queryable, {System.Linq.Queryable, 4.3.0}",
+      "System.Reflection, {System.Reflection, 4.3.0}",
+      "System.Reflection.Primitives, {System.Reflection.Primitives, 4.3.0}",
+      "System.Runtime, {System.Runtime, 4.3.1}",
+      "System.Runtime.CompilerServices.Unsafe, {System.Runtime.CompilerServices.Unsafe, 6.0.0}",
+      "System.Runtime.Serialization.Formatters, {System.Runtime.Serialization.Formatters, 9.0.5}",
+      "System.Security.Claims, {System.Security.Claims, 4.3.0}",
+      "System.Security.Cryptography.ProtectedData, {System.Security.Cryptography.ProtectedData, 10.0.1}",
+      "System.Security.Principal, {System.Security.Principal, 4.3.0}",
+      "System.Text.Encoding, {System.Text.Encoding, 4.3.0}",
+      "System.Text.Encodings.Web, {System.Text.Encodings.Web, 6.0.0}",
+      "System.Text.Json, {System.Text.Json, 9.0.5}",
+      "System.Text.RegularExpressions, {System.Text.RegularExpressions, 4.3.1}",
+      "System.Threading, {System.Threading, 4.3.0}",
+      "System.Threading.Tasks, {System.Threading.Tasks, 4.3.0}",
+      "System.Xml.XPath.XmlDocument, {System.Xml.XPath.XmlDocument, 4.7.0}",
+      "TimeZoneConverter, {TimeZoneConverter, 7.0.0}"
+    ],
+    "sync": true,
+    "targetFramework": "net9.0",
+    "typeReuseMode": "All"
+  }
+}

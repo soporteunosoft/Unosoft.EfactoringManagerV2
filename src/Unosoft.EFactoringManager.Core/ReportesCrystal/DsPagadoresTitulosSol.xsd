@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsPagadoresTitulosSol" targetNamespace="http://tempuri.org/DsPagadoresTitulosSol.xsd" xmlns:mstns="http://tempuri.org/DsPagadoresTitulosSol.xsd" xmlns="http://tempuri.org/DsPagadoresTitulosSol.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="EFactoringManagerConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="EFactoringManagerConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Unosoft.EFactoringManager.Properties.Settings.GlobalReference.Default.EFactoringManagerConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsPagadoresTitulosSol" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DsPagadoresTitulosSol" msprop:Generator_UserDSName="DsPagadoresTitulosSol">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PagadoresTitulosSol" msprop:Generator_TableClassName="PagadoresTitulosSolDataTable" msprop:Generator_TableVarName="tablePagadoresTitulosSol" msprop:Generator_TablePropName="PagadoresTitulosSol" msprop:Generator_RowDeletingName="PagadoresTitulosSolRowDeleting" msprop:Generator_RowChangingName="PagadoresTitulosSolRowChanging" msprop:Generator_RowEvHandlerName="PagadoresTitulosSolRowChangeEventHandler" msprop:Generator_RowDeletedName="PagadoresTitulosSolRowDeleted" msprop:Generator_UserTableName="PagadoresTitulosSol" msprop:Generator_RowChangedName="PagadoresTitulosSolRowChanged" msprop:Generator_RowEvArgName="PagadoresTitulosSolRowChangeEvent" msprop:Generator_RowClassName="PagadoresTitulosSolRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdPagador" msprop:Generator_ColumnVarNameInTable="columnIdPagador" msprop:Generator_ColumnPropNameInRow="IdPagador" msprop:Generator_ColumnPropNameInTable="IdPagadorColumn" msprop:Generator_UserColumnName="IdPagador">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Pagador" msprop:Generator_ColumnVarNameInTable="columnPagador" msprop:Generator_ColumnPropNameInRow="Pagador" msprop:Generator_ColumnPropNameInTable="PagadorColumn" msprop:Generator_UserColumnName="Pagador">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Titulos" msprop:Generator_ColumnVarNameInTable="columnTitulos" msprop:Generator_ColumnPropNameInRow="Titulos" msprop:Generator_ColumnPropNameInTable="TitulosColumn" msprop:Generator_UserColumnName="Titulos">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdCliente" msprop:Generator_ColumnVarNameInTable="columnIdCliente" msprop:Generator_ColumnPropNameInRow="IdCliente" msprop:Generator_ColumnPropNameInTable="IdClienteColumn" msprop:Generator_UserColumnName="IdCliente">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Cliente" msprop:Generator_ColumnVarNameInTable="columnCliente" msprop:Generator_ColumnPropNameInRow="Cliente" msprop:Generator_ColumnPropNameInTable="ClienteColumn" msprop:Generator_UserColumnName="Cliente">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ordenante" msprop:Generator_ColumnVarNameInTable="columnOrdenante" msprop:Generator_ColumnPropNameInRow="Ordenante" msprop:Generator_ColumnPropNameInTable="OrdenanteColumn" msprop:Generator_UserColumnName="Ordenante">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdOrdenante" msprop:Generator_ColumnVarNameInTable="columnIdOrdenante" msprop:Generator_ColumnPropNameInRow="IdOrdenante" msprop:Generator_ColumnPropNameInTable="IdOrdenanteColumn" msprop:Generator_UserColumnName="IdOrdenante">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdCuentaRecaudadora" msprop:Generator_ColumnVarNameInTable="columnIdCuentaRecaudadora" msprop:Generator_ColumnPropNameInRow="IdCuentaRecaudadora" msprop:Generator_ColumnPropNameInTable="IdCuentaRecaudadoraColumn" msprop:Generator_UserColumnName="IdCuentaRecaudadora" type="xs:int" />
+              <xs:element name="DirOficinaPag" msprop:Generator_ColumnVarNameInTable="columnDirOficinaPag" msprop:Generator_ColumnPropNameInRow="DirOficinaPag" msprop:Generator_ColumnPropNameInTable="DirOficinaPagColumn" msprop:Generator_UserColumnName="DirOficinaPag">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OrdenantePagador" msprop:Generator_ColumnVarNameInTable="columnOrdenantePagador" msprop:Generator_ColumnPropNameInRow="OrdenantePagador" msprop:Generator_ColumnPropNameInTable="OrdenantePagadorColumn" msprop:Generator_UserColumnName="OrdenantePagador">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProfesionOrdPag" msprop:Generator_ColumnVarNameInTable="columnProfesionOrdPag" msprop:Generator_ColumnPropNameInRow="ProfesionOrdPag" msprop:Generator_ColumnPropNameInTable="ProfesionOrdPagColumn" msprop:Generator_UserColumnName="ProfesionOrdPag">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CiudadPagador" msprop:Generator_ColumnVarNameInTable="columnCiudadPagador" msprop:Generator_ColumnPropNameInRow="CiudadPagador" msprop:Generator_ColumnPropNameInTable="CiudadPagadorColumn" msprop:Generator_UserColumnName="CiudadPagador">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NumCuenta" msprop:Generator_ColumnVarNameInTable="columnNumCuenta" msprop:Generator_ColumnPropNameInRow="NumCuenta" msprop:Generator_ColumnPropNameInTable="NumCuentaColumn" msprop:Generator_UserColumnName="NumCuenta">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NomCuenta" msprop:Generator_ColumnVarNameInTable="columnNomCuenta" msprop:Generator_ColumnPropNameInRow="NomCuenta" msprop:Generator_ColumnPropNameInTable="NomCuentaColumn" msprop:Generator_UserColumnName="NomCuenta">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CiudadExpOrdCli" msprop:Generator_ColumnVarNameInTable="columnCiudadExpOrdCli" msprop:Generator_ColumnPropNameInRow="CiudadExpOrdCli" msprop:Generator_ColumnPropNameInTable="CiudadExpOrdCliColumn" msprop:Generator_UserColumnName="CiudadExpOrdCli" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

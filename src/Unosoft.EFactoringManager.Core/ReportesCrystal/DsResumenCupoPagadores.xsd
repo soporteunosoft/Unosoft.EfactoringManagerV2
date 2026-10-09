@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsResumenCupoPagadores" targetNamespace="http://tempuri.org/DsResumenCupoPagadores.xsd" xmlns:mstns="http://tempuri.org/DsResumenCupoPagadores.xsd" xmlns="http://tempuri.org/DsResumenCupoPagadores.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="FactoringManagerDatosConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="FactoringManagerDatosConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Unosoft.EFactoringManager.Properties.Settings.GlobalReference.Default.FactoringManagerDatosConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsResumenCupoPagadores" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DsResumenCupoPagadores" msprop:Generator_UserDSName="DsResumenCupoPagadores">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="table" msprop:Generator_TableClassName="tableDataTable" msprop:Generator_TableVarName="tabletable" msprop:Generator_TablePropName="table" msprop:Generator_RowDeletingName="tableRowDeleting" msprop:Generator_RowChangingName="tableRowChanging" msprop:Generator_RowEvHandlerName="tableRowChangeEventHandler" msprop:Generator_RowDeletedName="tableRowDeleted" msprop:Generator_UserTableName="table" msprop:Generator_RowChangedName="tableRowChanged" msprop:Generator_RowEvArgName="tableRowChangeEvent" msprop:Generator_RowClassName="tableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdPagador" msprop:Generator_ColumnVarNameInTable="columnIdPagador" msprop:Generator_ColumnPropNameInRow="IdPagador" msprop:Generator_ColumnPropNameInTable="IdPagadorColumn" msprop:Generator_UserColumnName="IdPagador" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Pagador" msprop:Generator_ColumnVarNameInTable="columnPagador" msprop:Generator_ColumnPropNameInRow="Pagador" msprop:Generator_ColumnPropNameInTable="PagadorColumn" msprop:Generator_UserColumnName="Pagador" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FecAperturaPag" msprop:Generator_ColumnVarNameInTable="columnFecAperturaPag" msprop:Generator_ColumnPropNameInRow="FecAperturaPag" msprop:Generator_ColumnPropNameInTable="FecAperturaPagColumn" msprop:Generator_UserColumnName="FecAperturaPag" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DirOficinaPag" msprop:Generator_ColumnVarNameInTable="columnDirOficinaPag" msprop:Generator_ColumnPropNameInRow="DirOficinaPag" msprop:Generator_ColumnPropNameInTable="DirOficinaPagColumn" msprop:Generator_UserColumnName="DirOficinaPag" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TelOficinaPag" msprop:Generator_ColumnVarNameInTable="columnTelOficinaPag" msprop:Generator_ColumnPropNameInRow="TelOficinaPag" msprop:Generator_ColumnPropNameInTable="TelOficinaPagColumn" msprop:Generator_UserColumnName="TelOficinaPag" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TelMovilPag" msprop:Generator_ColumnVarNameInTable="columnTelMovilPag" msprop:Generator_ColumnPropNameInRow="TelMovilPag" msprop:Generator_ColumnPropNameInTable="TelMovilPagColumn" msprop:Generator_UserColumnName="TelMovilPag" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EmailPag" msprop:Generator_ColumnVarNameInTable="columnEmailPag" msprop:Generator_ColumnPropNameInRow="EmailPag" msprop:Generator_ColumnPropNameInTable="EmailPagColumn" msprop:Generator_UserColumnName="EmailPag" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CupoOperaciones" msprop:Generator_ColumnVarNameInTable="columnCupoOperaciones" msprop:Generator_ColumnPropNameInRow="CupoOperaciones" msprop:Generator_ColumnPropNameInTable="CupoOperacionesColumn" msprop:Generator_UserColumnName="CupoOperaciones" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Vigentes" msprop:Generator_ColumnVarNameInTable="columnVigentes" msprop:Generator_ColumnPropNameInRow="Vigentes" msprop:Generator_ColumnPropNameInTable="VigentesColumn" msprop:Generator_UserColumnName="Vigentes" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Disponible" msprop:Generator_ColumnVarNameInTable="columnDisponible" msprop:Generator_ColumnPropNameInRow="Disponible" msprop:Generator_ColumnPropNameInTable="DisponibleColumn" msprop:Generator_UserColumnName="Disponible" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PorcSobregiro" msprop:Generator_ColumnVarNameInTable="columnPorcSobregiro" msprop:Generator_ColumnPropNameInRow="PorcSobregiro" msprop:Generator_ColumnPropNameInTable="PorcSobregiroColumn" msprop:Generator_UserColumnName="PorcSobregiro" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CoberturaSobregiro" msprop:Generator_ColumnVarNameInTable="columnCoberturaSobregiro" msprop:Generator_ColumnPropNameInRow="CoberturaSobregiro" msprop:Generator_ColumnPropNameInTable="CoberturaSobregiroColumn" msprop:Generator_UserColumnName="CoberturaSobregiro" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FecMaxVigencia" msprop:Generator_ColumnVarNameInTable="columnFecMaxVigencia" msprop:Generator_ColumnPropNameInRow="FecMaxVigencia" msprop:Generator_ColumnPropNameInTable="FecMaxVigenciaColumn" msprop:Generator_UserColumnName="FecMaxVigencia" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

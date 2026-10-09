@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsCertificados" targetNamespace="http://tempuri.org/DsCertificados.xsd" xmlns:mstns="http://tempuri.org/DsCertificados.xsd" xmlns="http://tempuri.org/DsCertificados.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="EFactoringManagerConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="EFactoringManagerConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Unosoft.EFactoringManager.Properties.Settings.GlobalReference.Default.EFactoringManagerConnectionString2" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsCertificados" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DsCertificados" msprop:Generator_UserDSName="DsCertificados">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="table" msprop:Generator_TableClassName="tableDataTable" msprop:Generator_TableVarName="tabletable" msprop:Generator_TablePropName="table" msprop:Generator_RowDeletingName="tableRowDeleting" msprop:Generator_RowChangingName="tableRowChanging" msprop:Generator_RowEvHandlerName="tableRowChangeEventHandler" msprop:Generator_RowDeletedName="tableRowDeleted" msprop:Generator_UserTableName="table" msprop:Generator_RowChangedName="tableRowChanged" msprop:Generator_RowEvArgName="tableRowChangeEvent" msprop:Generator_RowClassName="tableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdCertificado" msprop:Generator_ColumnVarNameInTable="columnIdCertificado" msprop:Generator_ColumnPropNameInRow="IdCertificado" msprop:Generator_ColumnPropNameInTable="IdCertificadoColumn" msprop:Generator_UserColumnName="IdCertificado" type="xs:int" />
+              <xs:element name="IdCliente" msprop:Generator_ColumnVarNameInTable="columnIdCliente" msprop:Generator_ColumnPropNameInRow="IdCliente" msprop:Generator_ColumnPropNameInTable="IdClienteColumn" msprop:Generator_UserColumnName="IdCliente">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TipoOperacion" msprop:Generator_ColumnVarNameInTable="columnTipoOperacion" msprop:Generator_ColumnPropNameInRow="TipoOperacion" msprop:Generator_ColumnPropNameInTable="TipoOperacionColumn" msprop:Generator_UserColumnName="TipoOperacion">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdOficina" msprop:Generator_ColumnVarNameInTable="columnIdOficina" msprop:Generator_ColumnPropNameInRow="IdOficina" msprop:Generator_ColumnPropNameInTable="IdOficinaColumn" msprop:Generator_UserColumnName="IdOficina" type="xs:int" />
+              <xs:element name="IdOperacion" msprop:Generator_ColumnVarNameInTable="columnIdOperacion" msprop:Generator_ColumnPropNameInRow="IdOperacion" msprop:Generator_ColumnPropNameInTable="IdOperacionColumn" msprop:Generator_UserColumnName="IdOperacion" type="xs:int" />
+              <xs:element name="FecCorte" msprop:Generator_ColumnVarNameInTable="columnFecCorte" msprop:Generator_ColumnPropNameInRow="FecCorte" msprop:Generator_ColumnPropNameInTable="FecCorteColumn" msprop:Generator_UserColumnName="FecCorte" type="xs:dateTime" />
+              <xs:element name="IdCuota" msprop:Generator_ColumnVarNameInTable="columnIdCuota" msprop:Generator_ColumnPropNameInRow="IdCuota" msprop:Generator_ColumnPropNameInTable="IdCuotaColumn" msprop:Generator_UserColumnName="IdCuota" type="xs:int" />
+              <xs:element name="Cliente" msprop:Generator_ColumnVarNameInTable="columnCliente" msprop:Generator_ColumnPropNameInRow="Cliente" msprop:Generator_ColumnPropNameInTable="ClienteColumn" msprop:Generator_UserColumnName="Cliente" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TipoCertificado" msprop:Generator_ColumnVarNameInTable="columnTipoCertificado" msprop:Generator_ColumnPropNameInRow="TipoCertificado" msprop:Generator_ColumnPropNameInTable="TipoCertificadoColumn" msprop:Generator_UserColumnName="TipoCertificado" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FecCertificado" msprop:Generator_ColumnVarNameInTable="columnFecCertificado" msprop:Generator_ColumnPropNameInRow="FecCertificado" msprop:Generator_ColumnPropNameInTable="FecCertificadoColumn" msprop:Generator_UserColumnName="FecCertificado" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FecVencimiento" msprop:Generator_ColumnVarNameInTable="columnFecVencimiento" msprop:Generator_ColumnPropNameInRow="FecVencimiento" msprop:Generator_ColumnPropNameInTable="FecVencimientoColumn" msprop:Generator_UserColumnName="FecVencimiento" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ValorCuota" msprop:Generator_ColumnVarNameInTable="columnValorCuota" msprop:Generator_ColumnPropNameInRow="ValorCuota" msprop:Generator_ColumnPropNameInTable="ValorCuotaColumn" msprop:Generator_UserColumnName="ValorCuota" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ValorMora" msprop:Generator_ColumnVarNameInTable="columnValorMora" msprop:Generator_ColumnPropNameInRow="ValorMora" msprop:Generator_ColumnPropNameInTable="ValorMoraColumn" msprop:Generator_UserColumnName="ValorMora" type="xs:decimal" minOccurs="0" />
+              <xs:element name="RetefuenteMora" msprop:Generator_ColumnVarNameInTable="columnRetefuenteMora" msprop:Generator_ColumnPropNameInRow="RetefuenteMora" msprop:Generator_ColumnPropNameInTable="RetefuenteMoraColumn" msprop:Generator_UserColumnName="RetefuenteMora" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DiasMora" msprop:Generator_ColumnVarNameInTable="columnDiasMora" msprop:Generator_ColumnPropNameInRow="DiasMora" msprop:Generator_ColumnPropNameInTable="DiasMoraColumn" msprop:Generator_UserColumnName="DiasMora" type="xs:int" minOccurs="0" />
+              <xs:element name="VrNetoRecibir" msprop:Generator_ColumnVarNameInTable="columnVrNetoRecibir" msprop:Generator_ColumnPropNameInRow="VrNetoRecibir" msprop:Generator_ColumnPropNameInTable="VrNetoRecibirColumn" msprop:Generator_UserColumnName="VrNetoRecibir" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SaldoFinal" msprop:Generator_ColumnVarNameInTable="columnSaldoFinal" msprop:Generator_ColumnPropNameInRow="SaldoFinal" msprop:Generator_ColumnPropNameInTable="SaldoFinalColumn" msprop:Generator_UserColumnName="SaldoFinal" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:table" />
+      <xs:field xpath="mstns:IdCertificado" />
+      <xs:field xpath="mstns:IdCliente" />
+      <xs:field xpath="mstns:TipoOperacion" />
+      <xs:field xpath="mstns:IdOficina" />
+      <xs:field xpath="mstns:IdOperacion" />
+      <xs:field xpath="mstns:FecCorte" />
+      <xs:field xpath="mstns:IdCuota" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

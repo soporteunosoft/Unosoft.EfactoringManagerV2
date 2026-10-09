@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <VersionPrefix>1.0.0.0</VersionPrefix>
+    <TargetFramework>net9.0</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <AssemblyName>Unosoft.EFactoringManager.Core</AssemblyName>
+    <PackageId>Unosoft.EFactoringManager.Core</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <UserSecretsId>Unosoft-EFactoringManager-56C2EF2F-ABD6-4EFC-AAF2-2E81C34E8FB1</UserSecretsId>
+    <RootNamespace>Unosoft.EFactoringManager</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\SourceFiles\*.xml" Exclude="bin\**;obj\**;**\*.xproj;packages\**;@(EmbeddedResource)" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="ReportesCrystal\**" />
+    <Compile Remove="Reportes\**" />
+    <EmbeddedResource Remove="ReportesCrystal\**" />
+    <EmbeddedResource Remove="Reportes\**" />
+    <None Remove="ReportesCrystal\**" />
+    <None Remove="Reportes\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Reportes\ReportesManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Abp.AspNetCore.SignalR" Version="10.3.0" />
+    <PackageReference Include="Abp.AutoMapper" Version="10.3.0" />
+    <PackageReference Include="Abp.ZeroCore.EntityFrameworkCore" Version="10.3.0" />
+    <PackageReference Include="Castle.Windsor.MsDependencyInjection" Version="4.1.0" />
+    <PackageReference Include="CsvHelper" Version="33.1.0" />
+    <PackageReference Include="ExcelDataReader" Version="3.8.0" />
+    <PackageReference Include="ExcelDataReader.DataSet" Version="3.8.0" />
+    <PackageReference Include="FluentFTP" Version="53.0.2" />
+    <PackageReference Include="itext" Version="9.4.0" />
+    <PackageReference Include="PDFsharp" Version="6.2.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Unosoft.EFactoringManager.BillyServices\Unosoft.EFactoringManager.BillyServices.csproj" />
+    <ProjectReference Include="..\Unosoft.EfactoringManager.Certificados\Unosoft.EfactoringManager.Certificados.csproj" />
+    <ProjectReference Include="..\UnoSoft.EFactoringManager.CrystalReportService\UnoSoft.EFactoringManager.CrystalReportService.csproj" />
+    <ProjectReference Include="..\Unosoft.EFactoringManager.Dispapeles\Unosoft.EFactoringManager.Dispapeles.csproj" />
+    <ProjectReference Include="..\Unosoft.EfactoringManager.EBillServices\Unosoft.EfactoringManager.EBillServices.csproj" />
+    <ProjectReference Include="..\UnoSoft.EFactoringManager.ExcelReportService\UnoSoft.EFactoringManager.ExcelReportService.csproj" />
+  </ItemGroup>
+</Project>

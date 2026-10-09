@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <!-- cuando compile bien, cambias a net9.0 -->
+    <OutputType>Library</OutputType>
+    <RootNamespace>Unosoft.EFactoringManager.Dispapeles</RootNamespace>
+    <AssemblyName>Unosoft.EFactoringManager.Dispapeles</AssemblyName>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp.ZeroCore" Version="10.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="10.0.1" />
+    <PackageReference Include="RestSharp" Version="113.0.0" />
+
+    <!-- Config moderno -->
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>

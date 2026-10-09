@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <!-- Cuando todo compile estable, puedes cambiar a net9.0 -->
+    <OutputType>Library</OutputType>
+    <RootNamespace>UnoSoft.EFactoringManager.ExcelReportService</RootNamespace>
+    <AssemblyName>UnoSoft.EFactoringManager.ExcelReportService</AssemblyName>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Excel -->
+    <PackageReference Include="Abp.ZeroCore" Version="10.2.0" />
+    <PackageReference Include="ClosedXML" Version="0.104.2" />
+    <!-- Requerida por ClosedXML (evita degradación) -->
+    <PackageReference Include="DocumentFormat.OpenXml" Version="3.1.1" />
+
+    <!-- JSON -->
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>
